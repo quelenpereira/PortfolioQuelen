@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Locadora 2000</title>
+	
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			
+			<img style="width:3%;" src="img/claquete.jpg">
+			<a class="navbar-brand" href="#topo">Locadora 2000</a>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" href="#tabFilmes">Filmes Disponíveis</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#drop" id="dropGeneros" role="button" data-bs-toggle="dropdown" > Filmes por Categoria </a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#gAcao">Ação	</a></li>
+							<li><a class="dropdown-item" href="#gAnim">Animação	</a></li>
+							<li><a class="dropdown-item" href="#gRoman">Romance	</a></li>
+							<li><a class="dropdown-item" href="#gSus">Suspense	</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#cadFilmes">Cadastrar Filme</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	
+	<h1 class="display-1 text-center mb-5">Loucos por Filmes</h1>
+
+	
+	<div class="container">
+		<table class="table table-striped table-hover">
+			
+			<thead>
+				<tr>
+					<th scope="col">Código		</th>
+					<th scope="col">Título		</th>
+					<th scope="col">Diretor		</th>
+					<th scope="col">Lançamento	</th>
+					<th scope="col">Gênero		</th>
+					<th scope="col">Atriz/Ator	</th>
+					<th scope="col">Nota IMDB	</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+				<tr>
+					<th class="text-center table-danger   " colspan="7" id="#gAcao">AÇÃO</th>
+				</tr>
+				
+			  	<tr>
+					<th scope="row">1							</th>
+					<td>Príncipe da Pérsia: As Areias do Tempo	</td>
+					<td>Mike Newell								</td>
+					<td>3 de junho de 2010						</td>
+					<td>Ação									</td>
+					<td>Jake Gyllenhaal							</td>
+					<td>6,6/10									</td>
+
+
+
+				</tr>
+				
+				<tr>
+					<th scope="row">2					</th>
+					<td>Batman: O Cavaleiro das Trevas	</td>
+					<td>Christopher Nolan				</td>
+					<td>18 de julho de 2008				</td>
+					<td>	Ação 						</td>
+					<td>Christian Bale					</td>
+					<td>9,0/10 							</td>
+				</tr>
+				
+				<tr>
+					<th scope="row">3					</th>
+					<td>Matrix							</td>
+					<td>Lana Wachowski, Lilly Wachowski	</td>
+					<td>21 de maio de 1999				</td>
+					<td>Ação 							</td>
+					<td>Keanu Reeves					</td>
+					<td>8,7/10							</td>
+				</tr>
+
+				<tr>
+					<th scope="row">4					</th>
+					<td>A Identidade Bourne 			</td>
+					<td>Doug Liman						</td>
+					<td>2002							</td>
+					<td>Ação							</td>
+					<td>Matt Damon					</td>
+					<td>7,9/10						</td>
+				</tr>
+				
+				<tr>
+					<th scope="row">5					</th>
+					<td>Os Mercenários					</td>
+					<td>Sylvester Stallone				</td>
+					<td>2010							</td>
+					<td>Ação							</td>
+					<td>Sylvester Stallone				</td>
+					<td>6,4/10							</td>
+				</tr>
+				<tr>
+					<th class="text-center table-danger" colspan="7" id="#gAnim">ANIMAÇÃO</th>
+				</tr>
+				
+			  	<tr>
+			  		<th scope="row">6				</th>
+			    	<td>Minions 2					</td>
+			    	<td> Brad Ableson , Kyle Balda	</td>
+					<td>2022						</td>
+					<td> Animação,comédia,aventura 	</td>
+					<td> Will Arnett				</td>
+					<td>6,6/10						</td>
+				</tr>
+				
+				<tr>
+					<th scope="row">7								</th>
+					<td>Meu Malvado Favorito 3						</td>
+					<td> Eric Guillon , Kyle Balda , Pierre Coffin	</td>
+					<td>2017										</td>
+					<td>Animação,comédia,aventura					</td>
+					<td>Steve Carell								</td>
+					<td>6,2/10										</td>
+				</tr>
+				
+				<tr>
+					<th scope="row">8 					</th>
+					<td>A Era do Gelo 4					</td>
+					<td>Mike Thurmeier , Steve Martino 	</td>
+					<td>2012 							</td>
+					<td>Animação,comédia,aventura 		</td>
+					<td>Ray Romano						</td>
+					<td>6,5/10							</td>
+				</tr>
+				<tr>
+					<th scope="row">9					</th>
+					<td>O Rei Leão						</td>
+					<td>Jon Favrerau					</td>
+					<td>15 junho 1994					</td>
+					<td>Animação						</td>
+					<td>Matthew Broderick				</td>
+					<td>8,5/10							</td>
+
+				</tr>
+				<tr>
+					<th scope="row">10					</th>
+					<td>Sing							</td>
+					<td>Garth Jennings					</td>
+					<td>2 de julho de 2021				</td>
+					<td>Animção							</td>
+					<td>Matthew McConaughey				</td>
+					<td>7,1/10							</td>
+				</tr>
+	
+
+
+				<tr>
+					<th class="text-center table-danger" colspan="7" id="#gRoman">ROMANCE</th>
+				</tr>
+				
+			  	<tr>
+					<th scope="row">11				</th>
+					<td>Antes do amanhecer			</td>
+					<td>Richard Linklater			</td>
+					<td>1995						</td>
+					<td>Romance						</td>
+					<td> Ethan Hawke, Julie Delpy	</td>
+					<td>8,1/10						</td>
+				</tr>
+		
+				<tr>
+					<th scope="row">12					</th>
+					<td>Hoje eu quero voltar sozinho	</td>
+					<td> Daniel Ribeiro					</td>
+					<td>2014							</td>
+					<td>Romance							</td>
+					<td> Ghilherme Lobo					</td>
+					<td>7,9/10							</td>
+				</tr>
+				
+				<tr>
+					<th scope="row">13	</th>
+					<td>Casablanca 		</td>
+					<td>Michael Curtiz	</td>
+					<td>1942			</td>
+					<td>Romance			</td>
+					<td>Humphrey Bogart	</td>
+					<td>8,5/10			</td>
+				</tr>
+				<tr>
+					<th scope="row">14					</th>
+					<td>Titanic							</td>
+					<td>James Cameron					</td>
+					<td>1997							</td>
+					<td>Romance							</td>
+					<td>Leonardo DiCaprio,Kate Winslet	</td>
+					<td>7,9/10							</td>
+				</tr>
+				<tr>
+					<th scope="row">15					</th>
+					<td>Diário de uma paixão			</td>
+					<td>Nick Cassavetes					</td>
+					<td>25 Junho 2004					</td>
+					<td>Romance							</td>
+					<td> Ryan Gosling e Rachel McAdams	</td>
+					<td>7,8/10							</td>
+				</tr>
+				
+				<tr>
+					<th class="text-center table-danger" colspan="7" id="#gSus">SUSPENSE</th>
+				</tr>
+				
+			  	<tr>
+			  		<th scope="row">16					</th>
+			    	<td>Um crime de Mestre				</td>
+			    	<td> Gregory Hoblit					</td>
+					<td>2007							</td>
+					<td>Suspense 						</td>
+					<td> Ryan Gosling					</td>
+					<td>7,2/10 							</td>
+				</tr>
+				
+				<tr>
+					<th scope="row">17						</th>
+					<td>Cidade de Deus 						</td>
+					<td> Fernando Meirelles, Kátia Lund 	</td>
+					<td>30 de agosto de 2002 				</td>
+					<td>Suspense							</td>
+					<td>Alexandre Rodrigues					</td>
+					<td>8,6/10								</td>
+				</tr>
+				
+				<tr>
+					<th scope="row">18				</th>
+					<td>Garota Exemplar 			</td>
+					<td> David Fincher				</td>
+					<td>2 de outubro de 2014 		</td>
+					<td>Suspense					</td>
+					<td>Rosamund Pike				</td>
+					<td>8,1/10						</td>
+				</tr>
+				<tr>
+					<th scope="row">19							</th>
+					<td>Parasita								</td>
+					<td>R Bong Joon-ho							</td>
+					<td>2019									</td>
+					<td>Suspense								</td>
+					<td> Woo-sik Choi, Kang-ho Song, Yeo-jeong 	</td>
+					<td>8,5/10									</td>
+				</tr>
+				<tr>
+					<th scope="row">20						</th>
+					<td>O sexto Sentido						</td>
+					<td>R M. Night Shyamalan 				</td>
+					<td>1999								</td>
+					<td>Suspense							</td>
+					<td>Bruce Willis e Haley Joel Osment 	</td>
+					<td>8,2/10								</td>
+				</tr>
+			</tbody>
+		</table>
+		
+	</div>
+<div class="m-5">
+		<hr class="border-danger border-3 opacity-75">
+	</div>
+
+<h3 class=" text-center mb-5">Cadastro de Filmes</h3>
+
+<div  class=" container mb-5">
+	<form>
+
+	<div class="row">
+		<div class="mb-3 col">
+			<label for="codfilme" class="form-label">CÓDIGO</label>
+			<input type="text" id="codfilme" class="form-control">
+		</div>	
+	
+		<div class="mb-3 col">
+			<label for="anofilme" class="form-label">ANO</label>
+			<input type="date" id="anofilme" class="form-control">
+	</div>
+
+	<div class="row">
+		<div class="mb-3 col">
+			<label for="título-filme" class="form-label">TÍTULO</label>
+			<input type="text" id="títulofilme" class="form-control">
+	
+	</div>
+		<div class="mb-3 col">
+			<label for="dir-filme" class="form-label">DIRETOR</label>
+			<input type="text" id="dirfilme" class="form-control">
+	</div>		
+	
+	<div class="row">
+		<div class="mb-3 col">
+			<label for="atorpri" class="form-label">ATOR PRINCIPAL</label>
+			<input type="text" id="atorpri" class="form-control">
+	</div>
+
+	
+		<div class="mb-3 col">
+			<label for="notai" class="form-label">NOTA IMDB</label>
+			<input type="numeral" id="notai" class="form-control">
+
+	</div>		
+	
+	<div class="row">
+	
+		<div class="mb-3 col form-check">
+			<input type="radio" name="radio" id="radGenAcao" class="form-check-input" value="acao">
+			<label form="radGenAcao" class="form-label">Ação</label>
+	</div>
+
+	
+		<di  class="mb-3 col form-check">
+
+			<input type="radio" name="radio" id="radGenAnim" class="form-check-input" value="animacao">
+			<label form="radGenAnimacao" class="form-label">Animação</label>
+	</di>
+	
+	
+		<div  class="mb-3 col form-check">
+
+			<input type="radio" name="radio" id="radGenrom" class="form-check-input" value="romance">
+			<label form="radGenrom" class="form-label">Romance</label>
+	</div>
+	
+	
+		<div  class="mb-3 col form-check">
+
+			<input type="radio" name="radio" id="radGensusp" class="form-check-input" value="suspense">
+			<label form="radGensusp" class="form-label">Suspense</label>
+	</div>
+	
+		<div  class="mb-3 col form-check">
+
+			<input type="radio" name="radio" id="comed" class="form-check-input" value="comed">
+			<label form="comed" class="form-label">Comédia</label>
+
+	</div>
+		
+	
+		<div  class="mb-3 col form-check">
+
+			<input type="radio" name="radio" id="dram" class="form-check-input" value="dram">
+			<label form="dram" class="form-label">Drama</label>
+		
+	</div>
+
+	<di>
+	<div class="col-auto">
+		<button type="submit" class="btn btn-primary mb-7">Cadastrar</button>
+		
+	</div>
+
+	</form>
+</div>
+
+
+</body>
+</html>
